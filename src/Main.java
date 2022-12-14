@@ -47,6 +47,7 @@ public class Main {
                 DBconnect = DriverManager.getConnection("jdbc:mysql://localhost:3306/Project_DataBase?useUnicode = true&characterEncoding=utf-8", USER, PASSWORD);
                 DBstmt = DBconnect.createStatement();
                 System.out.println("创建数据库");
+                //test
             }catch (Exception e)
             {
                 e.printStackTrace();
